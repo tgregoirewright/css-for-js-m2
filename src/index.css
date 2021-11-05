@@ -30,3 +30,17 @@ body {
   padding: 0;
   border: 0;
 }
+
+::-webkit-scrollbar {
+  /* Track color */
+  background-color: white;
+  height: 12px;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Thumb color */
+  border-radius: 1000px;
+  background-color: lightgray;
+  border: 2px solid white;
+}
